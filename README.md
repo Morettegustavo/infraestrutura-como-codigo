@@ -32,3 +32,29 @@ Caso você ainda não tenha instalado a AWS CLI, basta ir a [página da AWS CLI]
 Depois de instalado você pode configurar a AWS usando o comando aws configure onde será requisitado a chave secreta (secret key) que pode ser criada [nessa pagina](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-1.console.aws.amazon.com%2Fiam%2Fhome%3Fregion%3Dus-east-1%26skipRegion%3Dtrue%26state%3DhashArgs%2523%252Fsecurity_credentials%26isauthcode%3Dtrue&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fiam&forceMobileApp=0&code_challenge=MOKhfr4ggOkCeths_jQs4elTWJWhy1Bc0NnOxn1jA6w&code_challenge_method=SHA-256) clicando em “criar chave de acesso” na aba “credenciais do AWS IAM”.
 
 ***
+## O que é IaC? (Infraestrutura como código)
+![2022-12-28_10-20.png](..%2F..%2F..%2FDownloads%2F2022-12-28_10-20.png)
+
+### Ferramentas que podemos fazer essa implementação
+* Terraform
+* Ansible
+* Crossplane
+* CHEF
+* Kubernetes
+* puppert
+
+### Terraform
+[Documentação do terraform](https://www.terraform.io/)
+![terraform.png](..%2F..%2F..%2FDownloads%2Fterraform.png)
+
+***
+
+> Benefícios da IaC
+* Deploy automatizado
+* Controle de versão
+* Velocidade e segurança
+* Reuso
+
+***
+## Comandos
+* terraform init: ele vai baixar algumas configurações, alguns plug-ins para podermos utilizar o nosso provedor (baixar os módulos para podermos nos comunicar com a AWS)
