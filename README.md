@@ -33,7 +33,8 @@ Depois de instalado você pode configurar a AWS usando o comando aws configure o
 
 ***
 ## O que é IaC? (Infraestrutura como código)
-![2022-12-28_10-20.png](..%2F..%2F..%2FDownloads%2F2022-12-28_10-20.png)
+![2022-12-28_10-20](https://user-images.githubusercontent.com/88351614/209838314-1b99d1cf-c6b5-4081-811c-e5fc11753c30.png)
+
 
 ### Ferramentas que podemos fazer essa implementação
 * Terraform
@@ -45,7 +46,8 @@ Depois de instalado você pode configurar a AWS usando o comando aws configure o
 
 ### Terraform
 [Documentação do terraform](https://www.terraform.io/)
-![terraform.png](..%2F..%2F..%2FDownloads%2Fterraform.png)
+![terraform](https://user-images.githubusercontent.com/88351614/209838465-0935fe59-2109-4625-9d66-0a0d41f792c5.png)
+
 
 ***
 
